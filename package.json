@@ -9,8 +9,8 @@
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs",
     "husky": "husky install",
-    "deploy": "bash deploy.sh",
     "lint": "npx markdownlint ./docs/README.md",
+    "deploy": "bash deploy.sh",
     "changelog": "npx conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "keywords": [],
