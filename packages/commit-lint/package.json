@@ -1,0 +1,22 @@
+{
+  "name": "commit-lint",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "rz <richardzane@yeah.net>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/commit-lint.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/commit-lint.test.js"
+  }
+}
