@@ -13,9 +13,6 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/richardzane/encode-spec.git"
@@ -25,5 +22,6 @@
   },
   "bugs": {
     "url": "https://github.com/richardzane/encode-spec/issues"
-  }
+  },
+  "gitHead": "229ddd2b0f3b5f0ba8a648afdda2d7e0843e719c"
 }

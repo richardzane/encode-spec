@@ -13,13 +13,11 @@
   "files": [
     "lib"
   ],
-  "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
-  },
   "scripts": {
     "test": "node ./__tests__/commit-lint.test.js"
   },
   "dependencies": {
     "conventional-changelog-conventionalcommits": "4.5.0"
-  }
+  },
+  "gitHead": "229ddd2b0f3b5f0ba8a648afdda2d7e0843e719c"
 }
