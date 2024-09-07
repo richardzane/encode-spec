@@ -6,9 +6,12 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "init": "pnpm install",
-    "deploy": "bash deploy.sh",
     "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
+    "docs:build": "vuepress build docs",
+    "husky": "husky install",
+    "deploy": "bash deploy.sh",
+    "lint": "npx markdownlint ./docs/README.md",
+    "changelog": "npx conventional-changelog -p angular -i CHANGELOG.md -s"
   },
   "keywords": [],
   "author": "",
@@ -17,9 +20,15 @@
     "packages/*"
   ],
   "devDependencies": {
+    "@commitlint/cli": "17.6.1",
     "@vuepress/bundler-vite": "2.0.0-rc.15",
     "@vuepress/theme-default": "2.0.0-rc.42",
+    "conventional-changelog-conventionalcommits": "4.5.0",
+    "husky": "8",
     "lerna": "^6.6.2",
+    "markdownlint-cli": "^0.41.0",
+    "only-allow": "^1.2.1",
+    "pnpm": "^9.9.0",
     "vue": "^3.5.3",
     "vuepress": "2.0.0-rc.15"
   }

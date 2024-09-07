@@ -1,0 +1,29 @@
+{
+  "name": "style-lint",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "richard <richardzane@yeah.net>",
+  "homepage": "https://github.com/richardzane/encode-spec#readme",
+  "license": "ISC",
+  "main": "lib/style-lint.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardzane/encode-spec.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/style-lint.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/richardzane/encode-spec/issues"
+  }
+}
