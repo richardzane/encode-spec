@@ -23,6 +23,7 @@
     "@commitlint/cli": "17.6.1",
     "@vuepress/bundler-vite": "2.0.0-rc.15",
     "@vuepress/theme-default": "2.0.0-rc.42",
+    "conventional-changelog-cli": "^5.0.0",
     "conventional-changelog-conventionalcommits": "4.5.0",
     "husky": "8",
     "lerna": "^6.6.2",
